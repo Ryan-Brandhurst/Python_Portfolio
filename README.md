@@ -458,7 +458,9 @@ widgets.interact(update_plot, year_range=year_range_slider)
 
 ************************************************************************************************************************
 PYTHON FUNDAMENTALS
-
+This lesson was mostly an introduction to some basic python code. I learned how to save values to a variable as well
+as the difference between strings, floating point numbers, and and integers. We performed some simple 
+calculations and called a function inside of another function. 
 
 
 ```python
@@ -596,14 +598,10 @@ print('weight in kilograms is now:', weight_kg)
 
 
 
-```python
-
-```
-
-
-
 ************************************************************************************************************************
 ANALYZING DATA (1,2, and 3)
+For this assignment, we analyzed patient data from a study measuring inflammation after drug administration. We created charts and were able to
+statiscally analyze the data. We were able to see the minimum and max values for the data sets as well as calculate the standard deviation. 
 
 
 
@@ -927,7 +925,8 @@ matplotlib.pyplot.show
 
 ************************************************************************************************************************
 STORING VALUES IN LISTS
-
+Per this assignment, we stored values in lists. We started by working with numbers and names, and moved on to more complex
+codes grouping organisms through species and printing the date. 
 
 
 ```python
@@ -1083,6 +1082,11 @@ print('Omitting ending index:', sond)
 
 ************************************************************************************************************************
 USING LOOPS
+I was able to practice making loops in python, which help to execute a 
+line of code multiple times. This is useful in tasks that require long strings of 
+code or long lists of data. Note the error present. Dr. VDB left the error intentionally
+on the instruction video for the assignment, and I did the same. Doing so gives me the chance
+to interpret where the mistake occurred so that I may avoid similar issues in the future. 
 ****ERROR*****
 
 ```python
@@ -1170,7 +1174,8 @@ print(len(name))
 
 ************************************************************************************************************************
 USING MULTIPLE FILES
-
+We learned how to analyze data from multiple files using python scripts. We continued
+to use the same data set consisting of patient inflammation measurements. 
 
 ```python
 import glob
@@ -1240,7 +1245,11 @@ for filename in filenames:
 
 ************************************************************************************************************************
 MAKING CHOICES
-
+The title of assignment refers to choices we may make when analyzing data.
+Numbers were entered and we were able to code a statement that was factual 
+regarding the number's value. In part 2, we referred back to the data of patient inflammation
+applying these principles, and were able to find that some of the data appeared
+manipulated or falsified to overstate the effectiveness of the drug treatment. 
 
 
 ```python
@@ -1373,6 +1382,10 @@ else:
 
 ************************************************************************************************************************
 FUNCTIONS (1,2,3 and 4)
+In this aissgnment, we revisited some examples of functions and learned some new ways to manipulate data.
+This mainly served as a reference to build upon in later videos. Note the error present. Dr. VDB left the error intentionally
+on the instruction video for the assignment, and I did the same. Doing so gives me the chance
+to interpret where the mistake is so that I may avoid similar issues in the future. 
 ******ERROR******
 
 
