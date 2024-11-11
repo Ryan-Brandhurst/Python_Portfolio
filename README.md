@@ -1,8 +1,8 @@
 # Python_Portfolio_RyanBrandhurst
 This repository consists of python code that I learned in BISC 450. It is the summation of nearly everything I have completed in this class over the Fall 2024 Quarter, and also is my final project for the class. 
 I have never even looked at coding prior to taking this class. I was aware of Linux as an operating system, but
-never bothered to look into it because of its compplexity and lack of support from game developers. At first, I struggled with navigating
-through the virtual machine and figuring out how to save my progress. Learning to code was tedious at first, because I have never had to use such
+never bothered to look into it because of its complexity and lack of support from game developers. At first, I struggled with navigating
+through the virtual machine and figuring out how to save my progress. Coding was initially tedious, because I have never had to use such
 precision and accuracy when typing. I found it easy to become overwhelmed, but stuck through and ended up learning a lot. 
 
 
