@@ -459,8 +459,9 @@ widgets.interact(update_plot, year_range=year_range_slider)
 ************************************************************************************************************************
 PYTHON FUNDAMENTALS
 This lesson was mostly an introduction to some basic python code. I learned how to save values to a variable as well
-as the difference between strings, floating point numbers, and and integers. We performed some simple 
+as the difference between strings, floating point numbers, and integers. We performed some simple 
 calculations and called a function inside of another function. 
+
 
 
 ```python
@@ -929,6 +930,7 @@ Per this assignment, we stored values in lists. We started by working with numbe
 codes grouping organisms through species and printing the date. 
 
 
+
 ```python
 odds = [1, 3, 5, 7]
 print('odds are:', odds)
@@ -1084,10 +1086,13 @@ print('Omitting ending index:', sond)
 USING LOOPS
 I was able to practice making loops in python, which help to execute a 
 line of code multiple times. This is useful in tasks that require long strings of 
-code or long lists of data. Note the error present. Dr. VDB left the error intentionally
+code or long lists of data. 
+****ERROR*****
+Note the error present. Dr. VDB left the error intentionally
 on the instruction video for the assignment, and I did the same. Doing so gives me the chance
 to interpret where the mistake occurred so that I may avoid similar issues in the future. 
-****ERROR*****
+
+
 
 ```python
 odds = [1,3,5,7]
@@ -1172,10 +1177,13 @@ print(len(name))
 ```
 
 
+
 ************************************************************************************************************************
 USING MULTIPLE FILES
 We learned how to analyze data from multiple files using python scripts. We continued
 to use the same data set consisting of patient inflammation measurements. 
+
+
 
 ```python
 import glob
@@ -1250,6 +1258,7 @@ Numbers were entered and we were able to code a statement that was factual
 regarding the number's value. In part 2, we referred back to the data of patient inflammation
 applying these principles, and were able to find that some of the data appeared
 manipulated or falsified to overstate the effectiveness of the drug treatment. 
+
 
 
 ```python
@@ -1383,10 +1392,12 @@ else:
 ************************************************************************************************************************
 FUNCTIONS (1,2,3 and 4)
 In this aissgnment, we revisited some examples of functions and learned some new ways to manipulate data.
-This mainly served as a reference to build upon in later videos. Note the error present. Dr. VDB left the error intentionally
-on the instruction video for the assignment, and I did the same. Doing so gives me the chance
-to interpret where the mistake is so that I may avoid similar issues in the future. 
+This mainly served as a reference to build upon in later videos.  
 ******ERROR******
+Note the error present. Dr. VDB left the error intentionally
+on the instruction video for the assignment, and I did the same. Doing so gives me the chance
+to interpret where the mistake occurred so that I may avoid similar issues in the future. 
+
 
 
 ```python
@@ -1542,6 +1553,9 @@ print_temperatures()
 END OF FUNCTIONS 1
 FUNCTIONS 2,3,4
 ***ERROR*****
+Note the error present. Dr. VDB left the error intentionally
+on the instruction video for the assignment, and I did the same. Doing so gives me the chance
+to interpret where the mistake occurred so that I may avoid similar issues in the future. 
 
 
 
@@ -2090,9 +2104,9 @@ DEFENSIVE PROGRAMMING
 I practiced defensive programming in this lesson. Like defensive driving, it is used a safeguard to mitigate any unforeseen complications. Defensive programming
 assumes that mistakes will happen when coding and guards against them. A little extra time spent on defensive programming can save hours of debugging and headache. 
 ***ERRORS**
-Dr. VDB left the error intentionally
+Note the error present. Dr. VDB left the error intentionally
 on the instruction video for the assignment, and I did the same. Doing so gives me the chance
-to interpret where the mistake is so that I may avoid similar issues in the future. 
+to interpret where the mistake occurred so that I may avoid similar issues in the future.  
 
 
 
@@ -2322,6 +2336,7 @@ With the RNA sequence of the Sonic Hedgehog gene, I input more code to translate
 serves as a regulating protein during embryonic development. 
 
 
+
 ```python
 # Prompt user to enter the input RNA file name
 
@@ -2402,9 +2417,11 @@ with open(output_file_name, "w") as output_file:
 
     The protein sequence has been saved to (output_file_name)
 
+
 ```python
 print(protein_sequence)
 ```
 
-Protein Sequence (from .txt)
- MLSLFPSPGPGSSRCKDKLNALAISVMNQWPGVKLRVTEGWDEDGHHSEESLHYEGRAVDITTSDRDRSKYGMLARLAVEAGFDWVYYESKAHIHCSVKAGKERKPLLRDTRYRASRGCSPAPPGRGADFSFRVDGAKSLCKMYAWWLLPASLMTKCISIPVKTCITMYLKLLSLCSIV
+     MLSLFPSPGPGSSRCKDKLNALAISVMNQWPGVKLRVTEGWDEDGHHSEESLHYEGRAVDITTSDRDRSKYGMLARLAVEAGFDWVYYESKAHIHCSVKAGKERKPLLRDTRYRASRGCSPAPPGRGADFSFRVDGAKSLCKMYAWWLLPASLMTKCISIPVKTCITMYLKLLSLCSIV
+
+
