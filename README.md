@@ -3,7 +3,7 @@ This repository consists of python code that I learned in BISC 450. It is the su
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # USING JUPYTER NOTEBOOKS
 This was the first assignment for this class. It was an introduction to Jupyter Notebooks. 
 In this lesson, I cloned a data file from Fortune 500 and was able to create graphs from the data within. 
@@ -456,7 +456,7 @@ widgets.interact(update_plot, year_range=year_range_slider)
     <function __main__.update_plot(year_range)>
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # PYTHON FUNDAMENTALS
 This lesson was mostly an introduction to some basic python code. I learned how to save values to a variable as well
 as the difference between strings, floating point numbers, and integers. We performed some simple 
@@ -599,7 +599,7 @@ print('weight in kilograms is now:', weight_kg)
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # ANALYZING DATA (1,2, and 3)
 For this assignment, we analyzed patient data from a study measuring inflammation after drug administration. We created charts and were able to
 statiscally analyze the data. We were able to see the minimum and max values for the data sets as well as calculate the standard deviation. 
@@ -924,7 +924,7 @@ matplotlib.pyplot.show
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # STORING VALUES IN LISTS
 Per this assignment, we stored values in lists. We started by working with numbers and names, and moved on to more complex
 codes grouping organisms through species and printing the date. 
@@ -1082,7 +1082,7 @@ print('Omitting ending index:', sond)
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # USING LOOPS
 I was able to practice making loops in python, which help to execute a 
 line of code multiple times. This is useful in tasks that require long strings of 
@@ -1178,7 +1178,7 @@ print(len(name))
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # USING MULTIPLE FILES
 We learned how to analyze data from multiple files using python scripts. We continued
 to use the same data set consisting of patient inflammation measurements. 
@@ -1251,7 +1251,7 @@ for filename in filenames:
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # MAKING CHOICES
 The title of assignment refers to choices we may make when analyzing data.
 Numbers were entered and we were able to code a statement that was factual 
@@ -1389,7 +1389,7 @@ else:
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # FUNCTIONS (1,2,3 and 4)
 In this aissgnment, we revisited some examples of functions and learned some new ways to manipulate data.
 This mainly served as a reference to build upon in later videos.  
@@ -2099,7 +2099,7 @@ def std_dev(sample):
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # DEFENSIVE PROGRAMMING
 I practiced defensive programming in this lesson. Like defensive driving, it is used a safeguard to mitigate any unforeseen complications. Defensive programming
 assumes that mistakes will happen when coding and guards against them. A little extra time spent on defensive programming can save hours of debugging and headache. 
@@ -2258,7 +2258,7 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # TRANSCRIBING DNA INTO RNA
 In this section, I downloaded a DNA file from a database. I chose the DNA sequence corresponding to the Sonic Hedgehog protein. Before I could
 print the complementary RNA sequence, I had to input a code that would do so. The resulting code below takes the downloaded DNA file and converts it into a RNA sequence
@@ -2330,7 +2330,7 @@ print(rna_sequence)
 
 
 
-# ************************************************************************************************************************
+************************************************************************************************************************
 # TRANSLATING RNA INTO PROTEIN
 With the RNA sequence of the Sonic Hedgehog gene, I input more code to translate this sequence into the appropriate chain of amino acids. These amino acids fom the Sonic Hedghog protein, which
 serves as a regulating protein during embryonic development. 
