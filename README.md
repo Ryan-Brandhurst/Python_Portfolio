@@ -2087,7 +2087,15 @@ def std_dev(sample):
 
 ************************************************************************************************************************
 DEFENSIVE PROGRAMMING
+I practiced defensive programming in this lesson. Like defensive driving, it is used a safeguard to mitigate any unforeseen complications. Defensive programming
+assumes that mistakes will happen when coding and guards against them. A little extra time spent on defensive programming can save hours of debugging and headache. 
 ***ERRORS**
+Dr. VDB left the error intentionally
+on the instruction video for the assignment, and I did the same. Doing so gives me the chance
+to interpret where the mistake is so that I may avoid similar issues in the future. 
+
+
+
 ```python
 numbers = [1.5, 2.3, 0.7, -0.001, 4.4]
 total = 0.0
@@ -2238,6 +2246,9 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 
 ************************************************************************************************************************
 TRANSCRIBING DNA INTO RNA
+In this section, I downloaded a DNA file from a database. I chose the DNA sequence corresponding to the Sonic Hedgehog protein. Before I could
+print the complementary RNA sequence, I had to input a code that would do so. The resulting code below takes the downloaded DNA file and converts it into a RNA sequence
+to be used for translation afterwards. 
 
 
 
@@ -2307,7 +2318,8 @@ print(rna_sequence)
 
 ************************************************************************************************************************
 TRANSLATING RNA INTO PROTEIN
-
+With the RNA sequence of the Sonic Hedgehog gene, I input more code to translate this sequence into the appropriate chain of amino acids. These amino acids fom the Sonic Hedghog protein, which
+serves as a regulating protein during embryonic development. 
 
 
 ```python
@@ -2389,6 +2401,10 @@ with open(output_file_name, "w") as output_file:
 ```
 
     The protein sequence has been saved to (output_file_name)
+
+```python
+print(protein_sequence)
+```
 
 Protein Sequence (from .txt)
  MLSLFPSPGPGSSRCKDKLNALAISVMNQWPGVKLRVTEGWDEDGHHSEESLHYEGRAVDITTSDRDRSKYGMLARLAVEAGFDWVYYESKAHIHCSVKAGKERKPLLRDTRYRASRGCSPAPPGRGADFSFRVDGAKSLCKMYAWWLLPASLMTKCISIPVKTCITMYLKLLSLCSIV
