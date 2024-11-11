@@ -839,8 +839,8 @@ print(numpy.mean(data, axis = 1))
 
 
 
-# END OF PART 1+2 ANALYZING DATA
-# PART 3 ANALYZING DATA
+## END OF PART 1+2 ANALYZING DATA
+## PART 3 ANALYZING DATA
 
 
 
@@ -1325,8 +1325,8 @@ else:
 
 
 
-# END OF PART 1 MAKING CHOICES
-# PART 2 MAKING CHOICES
+## END OF PART 1 MAKING CHOICES
+## PART 2 MAKING CHOICES
 
 
 
@@ -1550,8 +1550,8 @@ print_temperatures()
 
 
 
-# END OF FUNCTIONS 1
-# FUNCTIONS 2,3,4
+## END OF FUNCTIONS 1
+## FUNCTIONS 2,3,4
 ***ERROR*****
 Note the error present. Dr. VDB left the error intentionally
 on the instruction video for the assignment, and I did the same. Doing so gives me the chance
