@@ -3,11 +3,11 @@ This repository consists of python code that I learned in BISC 450. It is the su
 
 
 
-#************************************************************************************************************************
-#USING JUPYTER NOTEBOOKS
-##This was the first assignment for this class. It was an introduction to Jupyter Notebooks. 
-##In this lesson, I cloned a data file from Fortune 500 and was able to create graphs from the data within. 
-##I also learned how to save a Jupyter Notebook through both a virtual machine and Praxis Software. 
+# ************************************************************************************************************************
+# USING JUPYTER NOTEBOOKS
+## This was the first assignment for this class. It was an introduction to Jupyter Notebooks. 
+## In this lesson, I cloned a data file from Fortune 500 and was able to create graphs from the data within. 
+## I also learned how to save a Jupyter Notebook through both a virtual machine and Praxis Software. 
 
 
 
