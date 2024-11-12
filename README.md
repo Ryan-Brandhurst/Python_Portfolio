@@ -1091,10 +1091,7 @@ print('Omitting ending index:', sond)
 I was able to practice making loops in python, which help to execute a 
 line of code multiple times. This is useful in tasks that require long strings of 
 code or long lists of data. 
-****ERROR*****
-Note the error present. Dr. VDB left the error intentionally
-on the instruction video for the assignment, and I did the same. Doing so gives me the chance
-to interpret where the mistake occurred so that I may avoid similar issues in the future. 
+
 
 
 
@@ -1114,35 +1111,6 @@ print(odds[3])
     3
     5
     7
-
-
-
-```python
-odds = [1, 3, 5]
-print(odds[0])
-print(odds[1])
-print(odds[2])
-print(odds[3])
-```
-
-    1
-    3
-    5
-
-
-
-    ---------------------------------------------------------------------------
-
-    IndexError                                Traceback (most recent call last)
-
-    <ipython-input-3-b48c9fadc7bf> in <module>
-          3 print(odds[1])
-          4 print(odds[2])
-    ----> 5 print(odds[3])
-    
-
-    IndexError: list index out of range
-
 
 
 ```python
@@ -1397,10 +1365,6 @@ else:
 # FUNCTIONS (1,2,3 and 4)
 In this aissgnment, we revisited some examples of functions and learned some new ways to manipulate data.
 This mainly served as a reference to build upon in later videos.  
-******ERROR******
-Note the error present. Dr. VDB left the error intentionally
-on the instruction video for the assignment, and I did the same. Doing so gives me the chance
-to interpret where the mistake occurred so that I may avoid similar issues in the future. 
 
 
 
@@ -1500,22 +1464,6 @@ print('boiling point of water in Kelvin:', fahr_to_kelvin(212.0))
 
 
 
-```python
-print('Again, temperature in Kelvin was:', temp_k)
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-26-eed2471d229b> in <module>
-    ----> 1 print('Again, temperature in Kelvin was:', temp_k)
-    
-
-    NameError: name 'temp_k' is not defined
-
-
 
 ```python
 temp_kelvin = fahr_to_kelvin(212.0)
@@ -1556,10 +1504,6 @@ print_temperatures()
 
 ## END OF FUNCTIONS 1
 ## FUNCTIONS 2,3,4
-***ERROR*****
-Note the error present. Dr. VDB left the error intentionally
-on the instruction video for the assignment, and I did the same. Doing so gives me the chance
-to interpret where the mistake occurred so that I may avoid similar issues in the future. 
 
 
 
@@ -1855,38 +1799,6 @@ numpy.loadtxt('inflammation-01.csv', delimiter = ',')
 
 
 ```python
-numpy.loadtxt('inflammation-01.csv', ',')
-```
-
-
-    Traceback (most recent call last):
-
-
-      File "/home/student/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3326, in run_code
-        exec(code_obj, self.user_global_ns, self.user_ns)
-
-
-      File "<ipython-input-37-d0d3ef43afeb>", line 1, in <module>
-        numpy.loadtxt('inflammation-01.csv', ',')
-
-
-      File "/home/student/anaconda3/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1087, in loadtxt
-        dtype = np.dtype(dtype)
-
-
-      File "/home/student/anaconda3/lib/python3.7/site-packages/numpy/core/_internal.py", line 201, in _commastring
-        newitem = (dtype, eval(repeats))
-
-
-      File "<string>", line 1
-        ,
-        ^
-    SyntaxError: unexpected EOF while parsing
-
-
-
-
-```python
 def offset_mean(data, target_mean_value = 0.0):
     """Return a new array containing the original data with its mean offset to match the desired value, (0 by default). 
     Examples
@@ -2108,7 +2020,7 @@ def std_dev(sample):
 I practiced defensive programming in this lesson. Like defensive driving, it is used a safeguard to mitigate any unforeseen complications. Defensive programming
 assumes that mistakes will happen when coding and guards against them. A little extra time spent on defensive programming can save hours of debugging and headache. 
 ***ERRORS**
-Note the error present. Dr. VDB left the error intentionally
+Note the error/s present. Dr. VDB left the error intentionally
 on the instruction video for the assignment, and I did the same. Doing so gives me the chance
 to interpret where the mistake occurred so that I may avoid similar issues in the future.  
 
