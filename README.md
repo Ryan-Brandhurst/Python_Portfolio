@@ -1094,7 +1094,6 @@ code or long lists of data.
 
 
 
-
 ```python
 odds = [1,3,5,7]
 ```
@@ -1119,6 +1118,18 @@ for num in odds:
     print(num)
 ```
 
+    1
+    3
+    5
+    7
+    9
+    11
+    13
+    15
+    17
+    19
+
+
 
 ```python
 length = 0
@@ -1128,6 +1139,9 @@ for value in names:
 print('There are', length, 'names in the list.')
 ```
 
+    There are 3 names in the list.
+
+
 
 ```python
 name = 'Rosalind'
@@ -1136,10 +1150,19 @@ for name in ['Curie', 'Darwin', 'Turing']:
 print('after the loop, name is', name)
 ```
 
+    Curie
+    Darwin
+    Turing
+    after the loop, name is Turing
+
+
 
 ```python
 print(len([0, 1, 2, 3]))
 ```
+
+    4
+
 
 
 ```python
@@ -1147,6 +1170,8 @@ name = ['Curie', 'Darwin', 'Turing']
 
 print(len(name))
 ```
+
+    3
 
 
 
